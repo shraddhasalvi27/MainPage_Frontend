@@ -1,5 +1,5 @@
 body{
-    background-color: #0e2028;
+    background-color: #95bcd3;
 }
 *{
     /* default padding and margin set to zero */ 
@@ -52,5 +52,30 @@ a{
     height: 50px;
     margin-top: 15px;
     
+
+}
+.main-content{
+    display:flex;
+    flex-direction: row;
+}
+.right-content{
+    display: flex;
+    flex-direction:column;
+
+    justify-content:right;
+    padding-top:100px ;
+    margin-left: 400px;
+}
+.background-image{
+    width: 450px;
+    height: 450px;
+    border-radius: 60px;
+    
+}
+
+.left-content{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
 
 }
