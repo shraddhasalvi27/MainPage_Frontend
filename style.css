@@ -47,7 +47,7 @@ p {
   padding: 20px 80px;
   box-shadow: 0 5px 15px rgba(56, 17, 17, 0.06);
   position: fixed;
-  z-index: 999;
+  /* z-index: 999; */
   top: 0;
   left: 0;
   right: 0;
@@ -162,5 +162,14 @@ p {
   padding-bottom: 20px;
 }
 
-/* about us page code
- */
+/* chatbot design */
+/* Adjust the width and height of the chatbot container */
+#webchat {
+  width: 400px; /* Change the width as needed */
+  height: 500px; /* Change the height as needed */
+}
+
+/* Optionally, you can adjust the font size or any other styling properties */
+#webchat .bp-webchat {
+  font-size: 14px; /* Change the font size as needed */
+}
